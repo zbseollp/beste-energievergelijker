@@ -1,0 +1,11 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/algemene-voorwaarden.html?raw';
+---
+<PageLayout
+  title="Algemene voorwaarden"
+  metaTitle="Algemene voorwaarden - Beste-energievergelijker.com"
+  description="In deze voorwaarden wordt verstaan onder:"
+>
+  <Fragment set:html={html} />
+</PageLayout>

@@ -1,0 +1,55 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  entry: CollectionEntry<'blog'>;
+}
+const { entry } = Astro.props;
+const { title, description, pubDate, updatedDate, author, categories = [], metaTitle } = entry.data as any;
+const fmt = (d: Date) =>
+  new Intl.DateTimeFormat('nl-NL', { day: 'numeric', month: 'long', year: 'numeric' }).format(d);
+---
+<BaseLayout title={metaTitle || title} description={description}>
+  <section class="page-hero">
+    <div class="wrap">
+      {categories.length > 0 && (
+        <p style="margin:0 0 10px;font-size:.8rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--green)">
+          {categories.join(' · ')}
+        </p>
+      )}
+      <h1>{title}</h1>
+      {description && <p>{description}</p>}
+    </div>
+  </section>
+
+  <div class="article">
+    <div class="wrap article-layout">
+      <article>
+        <div class="meta-line">
+          {author && <span>Door <strong>{author}</strong></span>}
+          <span>Gepubliceerd {fmt(pubDate)}</span>
+          {updatedDate && <span>Laatste update {fmt(updatedDate)}</span>}
+        </div>
+        <div class="prose">
+          <slot />
+        </div>
+      </article>
+
+      <aside class="aside">
+        <div class="box">
+          <h3>Bespaar op je energierekening</h3>
+          <p>Vergelijk het complete aanbod van alle energieleveranciers en zie direct wat je bespaart.</p>
+          <a class="btn" href="/#vergelijker">Vergelijk energie</a>
+        </div>
+        <div class="box">
+          <h3>Veelgelezen</h3>
+          <p style="margin-bottom:6px"><a href="/energie-vergelijken/energieprijzen/">Actuele energieprijzen</a></p>
+          <p style="margin-bottom:6px"><a href="/energieleveranciers/beste/">Beste energieleverancier</a></p>
+          <p style="margin-bottom:6px"><a href="/energie-besparen/10-tips/">10 tips om energie te besparen</a></p>
+          <p style="margin-bottom:0"><a href="/zonnepanelen/">Alles over zonnepanelen</a></p>
+        </div>
+      </aside>
+    </div>
+  </div>
+</BaseLayout>

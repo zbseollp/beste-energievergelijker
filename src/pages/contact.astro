@@ -1,0 +1,11 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/contact.html?raw';
+---
+<PageLayout
+  title="Neem contact op metde Beste Energie Vergelijkervan Nederland!"
+  metaTitle="Contact | Beste-energievergelijker.com"
+  description="Heb je een vraag of wil je in contact komen met het team van beste-energievergelijker.com? Dat kan via deze pagina!"
+>
+  <Fragment set:html={html} />
+</PageLayout>

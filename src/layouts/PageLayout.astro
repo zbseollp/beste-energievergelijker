@@ -1,0 +1,60 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import CompareWidget from '../components/CompareWidget.astro';
+import BusinessCompareWidget from '../components/BusinessCompareWidget.astro';
+
+interface Props {
+  title: string;
+  metaTitle?: string;
+  description?: string;
+  intro?: string;
+  compare?: 'consumer' | 'business' | false;
+  wide?: boolean;
+}
+const { title, metaTitle, description = '', intro = '', compare = false, wide = false } = Astro.props;
+---
+<BaseLayout title={metaTitle || title} description={description}>
+  <section class="page-hero">
+    <div class="wrap">
+      <h1>{title}</h1>
+      {(intro || description) && <p>{intro || description}</p>}
+    </div>
+  </section>
+
+  {compare === 'consumer' && (
+    <section style="padding:32px 0 0">
+      <div class="wrap"><CompareWidget /></div>
+    </section>
+  )}
+  {compare === 'business' && (
+    <section style="padding:32px 0 0">
+      <div class="wrap"><BusinessCompareWidget /></div>
+    </section>
+  )}
+
+  <div class="article">
+    <div class={wide ? 'wrap' : 'wrap article-layout'}>
+      <article>
+        <div class="prose" style={wide ? 'max-width:none' : undefined}>
+          <slot />
+        </div>
+      </article>
+      {!wide && (
+        <aside class="aside">
+          <div class="box">
+            <h3>Direct vergelijken</h3>
+            <p>Bekijk in één overzicht welke energieleverancier op dit moment het voordeligst is.</p>
+            <a class="btn" href="/#vergelijker">Start vergelijking</a>
+          </div>
+          <div class="box">
+            <h3>Populair</h3>
+            <p style="margin-bottom:6px"><a href="/energieleveranciers/goedkope/">Goedkoopste energieleverancier</a></p>
+            <p style="margin-bottom:6px"><a href="/energie-vergelijken/energieprijzen/">Actuele energieprijzen</a></p>
+            <p style="margin-bottom:6px"><a href="/overstappen-energie/">Overstappen van energie</a></p>
+            <p style="margin-bottom:0"><a href="/energie-besparen/">Energie besparen</a></p>
+          </div>
+        </aside>
+      )}
+    </div>
+  </div>
+</BaseLayout>

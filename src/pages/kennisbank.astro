@@ -1,0 +1,11 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/kennisbank.html?raw';
+---
+<PageLayout
+  title="Kennisbank"
+  metaTitle="Kennisbank | Beste-energievergelijker.com"
+  description="Meer weten over energie en het vergelijken van energie? Bekijk dan nu onze kennisbank met vele informatiegidsen!"
+>
+  <Fragment set:html={html} />
+</PageLayout>

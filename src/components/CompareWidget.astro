@@ -1,0 +1,20 @@
+---
+/*
+ * Energievergelijker van whitelabeled.nl - exact dezelfde embed (id R1coQEUyj2dXbM2z-105)
+ * als op de WordPress-bron. Alleen geplaatst op de pagina's waar de widget daar ook
+ * daadwerkelijk actief was: home, /energie-vergelijken/, /overstappen-energie/, /zakelijke-energie/.
+ */
+interface Props {
+  title?: string;
+  intro?: string;
+}
+const {
+  title = 'Vergelijk energieleveranciers',
+  intro = 'Vul je verbruik in en zie direct het complete aanbod van alle Nederlandse energieleveranciers, inclusief acties en cashback.',
+} = Astro.props;
+---
+<div class="compare-block" id="vergelijker">
+  <h2>{title}</h2>
+  <p>{intro}</p>
+  <script is:inline type="text/javascript" src="https://energie.whitelabeled.nl/ext/include/R1coQEUyj2dXbM2z-105"></script>
+</div>

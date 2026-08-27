@@ -1,0 +1,11 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/privacy-policy.html?raw';
+---
+<PageLayout
+  title="Privacy Policy"
+  metaTitle="Privacy Policy - Beste-energievergelijker.com"
+  description="LGX BV geeft veel om uw privacy. Wij verwerken daarom uitsluitend gegevens die wij nodig hebben voor (het verbeteren van) onze dienstverlening en gaan"
+>
+  <Fragment set:html={html} />
+</PageLayout>

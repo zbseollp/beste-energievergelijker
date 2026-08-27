@@ -1,0 +1,26 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostGrid from '../../components/PostGrid.astro';
+
+const posts = (await getCollection('blog'))
+  .filter((p) => (p.data.categories ?? []).includes('Blog'))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout
+  title="Blog over energie besparen en vergelijken | Beste-energievergelijker.com"
+  description="Nieuws, achtergrond en praktische tips over de energiemarkt, energietarieven en besparen op je energierekening."
+>
+  <section class="page-hero">
+    <div class="wrap">
+      <h1>Blog</h1>
+      <p>{posts.length} artikelen over de energiemarkt, tarieven en besparen. Meest recente eerst.</p>
+    </div>
+  </section>
+  <section>
+    <div class="wrap">
+      <PostGrid posts={posts} />
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,72 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+/*
+ * Hub voor /isolatie/. Deze URL gaf op de WordPress-bron een 500-fout terwijl er
+ * wel 30 onderliggende pagina's onder hangen; hier is hij hersteld als overzicht.
+ */
+const items = (await getCollection('blog'))
+  .filter((p) => p.id.startsWith('isolatie/'))
+  .sort((a, b) => a.id.localeCompare(b.id));
+
+const groups = [
+  { key: 'spouwmuurisolatie', label: 'Spouwmuurisolatie' },
+  { key: 'vloerisolatie', label: 'Vloerisolatie' },
+  { key: 'dakisolatie', label: 'Dakisolatie' },
+  { key: 'muurisolatie', label: 'Muurisolatie' },
+  { key: 'geluidsisolatie', label: 'Geluidsisolatie' },
+];
+const used = new Set<string>();
+const grouped = groups.map((g) => {
+  const its = items.filter((i) => i.id.includes(g.key));
+  its.forEach((i) => used.add(i.id));
+  return { ...g, items: its };
+});
+const rest = items.filter((i) => !used.has(i.id));
+---
+
+<BaseLayout
+  title="Isolatie: soorten, kosten en subsidie | Beste-energievergelijker.com"
+  description="Alles over isoleren: spouwmuur-, vloer-, dak- en muurisolatie. Kosten, isolatiewaarde, materialen en de beschikbare subsidies op een rij."
+>
+  <section class="page-hero">
+    <div class="wrap">
+      <h1>Isolatie</h1>
+      <p>
+        Isoleren is de snelste manier om structureel op je energierekening te besparen. Hieronder vind je alle
+        {items.length} artikelen over isolatiesoorten, kosten, isolatiewaarde en subsidies.
+      </p>
+    </div>
+  </section>
+  <section>
+    <div class="wrap">
+      {grouped.filter((g) => g.items.length).map((g) => (
+        <div style="margin-bottom:40px">
+          <h2 class="section-title">{g.label}</h2>
+          <div class="grid grid-3">
+            {g.items.map((i) => (
+              <a class="card" href={`/${i.id}/`}>
+                <h3>{i.data.title}</h3>
+                {i.data.description && <p>{i.data.description.slice(0, 120)}…</p>}
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+      {rest.length > 0 && (
+        <div>
+          <h2 class="section-title">Materialen en overig</h2>
+          <div class="grid grid-3">
+            {rest.map((i) => (
+              <a class="card" href={`/${i.id}/`}>
+                <h3>{i.data.title}</h3>
+                {i.data.description && <p>{i.data.description.slice(0, 120)}…</p>}
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  </section>
+</BaseLayout>

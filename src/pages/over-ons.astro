@@ -1,0 +1,11 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/over-ons.html?raw';
+---
+<PageLayout
+  title="Alles wat je wil wetenover de Beste Energie Vergelijkervan Nederland!"
+  metaTitle="Over ons | Beste-energievergelijker.com"
+  description="Meer weten over beste-energievergelijker.com? Bekijk onze over ons en leer het team kennen!"
+>
+  <Fragment set:html={html} />
+</PageLayout>
