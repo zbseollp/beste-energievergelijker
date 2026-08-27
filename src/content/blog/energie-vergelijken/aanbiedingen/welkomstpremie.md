@@ -5,6 +5,7 @@ pubDate: 2021-03-25
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Energie vergelijken"]
+image: "/wp-content/uploads/2022/03/welkomstpremie-energie-vergelijken.jpg"
 metaTitle: "Welkomstpremie Energie Vergelijken (2022) | Beste-Energievergelijker.com"
 ---
 

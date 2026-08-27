@@ -5,6 +5,7 @@ pubDate: 2022-05-16
 updatedDate: 2022-06-08
 author: "Roy van Wensen"
 categories: ["Zonnepanelen"]
+image: "/wp-content/uploads/2019/02/02/Zonnepanelen-achtergrond-unsmushed.jpg"
 metaTitle: "Zonnepanelen In 2026 | Kom Alles Te Weten & Bespaar Direct!"
 ---
 

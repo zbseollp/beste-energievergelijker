@@ -5,6 +5,7 @@ pubDate: 2021-02-05
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Energieleveranciers"]
+image: "/wp-content/uploads/2022/03/duurzame-energieleverancier.jpg"
 metaTitle: "Duurzame Energieleveranciers (2022) | TOP 10 | Beste-Energievergelijker.com"
 ---
 

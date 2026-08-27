@@ -5,6 +5,7 @@ pubDate: 2021-04-28
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Luchtontvochtiger"]
+image: "/wp-content/uploads/2022/03/luchtontvochtiger-kelder.jpg"
 metaTitle: "Luchtontvochtiger Kelder | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

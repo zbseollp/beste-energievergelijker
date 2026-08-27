@@ -5,6 +5,7 @@ pubDate: 2020-07-04
 updatedDate: 2022-05-27
 author: "Roy van Wensen"
 categories: ["Energieleveranciers"]
+image: "/wp-content/uploads/2022/03/robin-energie-aanbiedingen.png"
 ---
 
 <figure><img width="316" height="121" src="/wp-content/uploads/2022/03/robin-energie-aanbiedingen.png" alt="aanbiedingen robin energie" loading="lazy"></figure>

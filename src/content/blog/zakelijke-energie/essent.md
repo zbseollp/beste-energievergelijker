@@ -5,6 +5,7 @@ pubDate: 2020-07-10
 updatedDate: 2022-05-28
 author: "Roy van Wensen"
 categories: ["Zakelijke energie"]
+image: "/wp-content/uploads/2022/03/zakelijke-energie-essent.png"
 metaTitle: "Essent Zakelijk Energie | Bekijk & Vergelijk Aanbod | Beste-Energievergelijker.com"
 ---
 

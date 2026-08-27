@@ -5,6 +5,7 @@ pubDate: 2024-02-08
 updatedDate: 2024-02-08
 author: "Roy van Wensen"
 categories: ["Blog"]
+image: "/wp-content/uploads/2024/02/pexels-mikhail-nilov-7734579-2.jpg"
 metaTitle: "Het belang van verzekeringen: bescherming en gemoedrust - Beste-energievergelijker.com"
 ---
 

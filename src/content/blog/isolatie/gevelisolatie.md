@@ -5,6 +5,7 @@ pubDate: 2020-12-21
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Isolatie"]
+image: "/wp-content/uploads/2022/03/isoleren-gevel.jpg"
 metaTitle: "Gevelisolatie | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

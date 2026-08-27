@@ -5,6 +5,7 @@ pubDate: 2021-02-14
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Kennisbank"]
+image: "/wp-content/uploads/2021/02/leveringskosten.jpg"
 metaTitle: "Leveringskosten | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

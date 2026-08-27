@@ -5,6 +5,7 @@ pubDate: 2020-02-18
 updatedDate: 2022-05-27
 author: "Roy van Wensen"
 categories: ["Energieleveranciers"]
+image: "/wp-content/uploads/2022/03/the-bill-doctor-aanbiedingen.png"
 ---
 
 <figure><img width="316" height="121" src="/wp-content/uploads/2022/03/the-bill-doctor-aanbiedingen.png" alt="aanbiedingen the bill doctor" loading="lazy"></figure>

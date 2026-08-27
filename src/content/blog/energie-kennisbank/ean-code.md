@@ -5,6 +5,7 @@ pubDate: 2020-12-05
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Kennisbank"]
+image: "/wp-content/uploads/2022/03/ean.jpg"
 metaTitle: "EAN Code | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

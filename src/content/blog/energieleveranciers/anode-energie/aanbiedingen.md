@@ -5,6 +5,7 @@ pubDate: 2021-09-03
 updatedDate: 2022-05-06
 author: "Roy van Wensen"
 categories: ["Energieleveranciers"]
+image: "/wp-content/uploads/2022/03/anode-energie-aanbiedingen.png"
 ---
 
 <figure><img width="316" height="121" src="/wp-content/uploads/2022/03/anode-energie-aanbiedingen.png" alt="aanbiedingen anode energie" loading="lazy"></figure>

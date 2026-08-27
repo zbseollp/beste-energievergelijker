@@ -5,6 +5,7 @@ pubDate: 2020-11-04
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Kennisbank"]
+image: "/wp-content/uploads/2022/03/energie-geschillencommissie.jpg"
 metaTitle: "Geschillencommissie Energie | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

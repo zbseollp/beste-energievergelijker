@@ -5,6 +5,7 @@ pubDate: 2021-03-18
 updatedDate: 2022-06-09
 author: "Roy van Wensen"
 categories: ["Energie vergelijken"]
+image: "/wp-content/uploads/2022/03/kwh-energie.jpg"
 metaTitle: "kWh Prijs (2022) | Beste-Energievergelijker.com"
 ---
 

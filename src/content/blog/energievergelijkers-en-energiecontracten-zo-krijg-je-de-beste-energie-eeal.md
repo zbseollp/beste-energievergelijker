@@ -5,6 +5,7 @@ pubDate: 2024-02-02
 updatedDate: 2024-02-02
 author: "Roy van Wensen"
 categories: ["Blog"]
+image: "/wp-content/uploads/2024/02/pexels-eric-anada-1495580-1024x680.jpg"
 metaTitle: "Energievergelijkers en energiecontracten: zo krijg je de beste energie-eeal - Beste-energievergelijker.com"
 ---
 

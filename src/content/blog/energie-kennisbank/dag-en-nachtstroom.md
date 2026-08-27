@@ -5,6 +5,7 @@ pubDate: 2020-12-11
 updatedDate: 2022-05-27
 author: "Roy van Wensen"
 categories: ["Kennisbank"]
+image: "/wp-content/uploads/2022/03/dag-nachtstroom.jpg"
 metaTitle: "Dag En Nachtstroom | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

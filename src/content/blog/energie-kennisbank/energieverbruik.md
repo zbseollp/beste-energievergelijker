@@ -5,6 +5,7 @@ pubDate: 2020-11-12
 updatedDate: 2022-06-08
 author: "Roy van Wensen"
 categories: ["Kennisbank"]
+image: "/wp-content/uploads/2022/03/energie-verbruik.jpg"
 metaTitle: "Energieverbruik | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

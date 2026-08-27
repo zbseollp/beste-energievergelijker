@@ -5,6 +5,7 @@ pubDate: 2022-05-16
 updatedDate: 2022-05-28
 author: "Roy van Wensen"
 categories: ["Zonnepanelen"]
+image: "/wp-content/uploads/2022/03/zonnepanelen-schoonmaken.jpg"
 metaTitle: "Zonnepanelen Schoonmaken | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

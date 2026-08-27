@@ -5,6 +5,7 @@ pubDate: 2020-12-13
 updatedDate: 2022-06-08
 author: "Roy van Wensen"
 categories: ["Isolatie"]
+image: "/wp-content/uploads/2022/03/spouwmuurisolatie.jpg"
 metaTitle: "Spouwmuurisolatie | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

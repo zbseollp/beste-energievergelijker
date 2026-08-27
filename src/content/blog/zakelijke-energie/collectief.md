@@ -5,6 +5,7 @@ pubDate: 2021-04-22
 updatedDate: 2022-06-03
 author: "Roy van Wensen"
 categories: ["Zakelijke energie"]
+image: "/wp-content/uploads/2019/02/02/collectieve-zakelijke-energie.jpg"
 metaTitle: "Zakelijk Energie Collectief | Wat Moet Je Weten? | Beste-Energievergelijker.com"
 ---
 

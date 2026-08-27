@@ -5,6 +5,7 @@ pubDate: 2020-02-21
 updatedDate: 2022-05-23
 author: "Roy van Wensen"
 categories: ["Energieleveranciers"]
+image: "/wp-content/uploads/2022/03/delta-energie-tarieven.png"
 ---
 
 <figure><img width="316" height="121" src="/wp-content/uploads/2022/03/delta-energie-tarieven.png" alt="tarieven delta energie" loading="lazy"></figure>

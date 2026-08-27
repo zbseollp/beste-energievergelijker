@@ -5,6 +5,7 @@ pubDate: 2021-07-05
 updatedDate: 2022-05-28
 author: "Roy van Wensen"
 categories: ["Energieleveranciers"]
+image: "/wp-content/uploads/2022/03/easyenergy-aanbiedingen.png"
 ---
 
 <figure><img width="316" height="121" src="/wp-content/uploads/2022/03/easyenergy-aanbiedingen.png" alt="aanbiedingen easyenergy" loading="lazy"></figure>

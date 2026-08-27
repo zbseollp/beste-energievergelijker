@@ -5,6 +5,7 @@ pubDate: 2021-12-25
 updatedDate: 2022-05-27
 author: "Roy van Wensen"
 categories: ["Zakelijke energie"]
+image: "/wp-content/uploads/2022/03/zakelijke-energie-nuon.png"
 metaTitle: "Nuon Zakelijk Energie | Bekijk & Vergelijk Aanbod | Beste-Energievergelijker.com"
 ---
 

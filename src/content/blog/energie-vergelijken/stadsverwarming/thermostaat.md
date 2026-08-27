@@ -5,6 +5,7 @@ pubDate: 2021-03-07
 updatedDate: 2022-06-09
 author: "Roy van Wensen"
 categories: ["Energie vergelijken"]
+image: "/wp-content/uploads/2022/03/thermostaat-stadsverwarming.jpg"
 metaTitle: "Thermostaat Stadsverwarming | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

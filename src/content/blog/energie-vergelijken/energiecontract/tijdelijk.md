@@ -5,6 +5,7 @@ pubDate: 2021-03-21
 updatedDate: 2022-06-09
 author: "Roy van Wensen"
 categories: ["Energie vergelijken"]
+image: "/wp-content/uploads/2022/03/tijdelijk-energiecontract.jpg"
 metaTitle: "Tijdelijk Energiecontract | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

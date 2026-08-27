@@ -5,6 +5,7 @@ pubDate: 2023-12-22
 updatedDate: 2023-12-22
 author: "Roy van Wensen"
 categories: ["Blog"]
+image: "/wp-content/uploads/2023/12/pexels-pixabay-161123.jpg"
 metaTitle: "Essent: Een diepgaande blik op kosten, voordelen en mogelijkheden - Beste-energievergelijker.com"
 ---
 

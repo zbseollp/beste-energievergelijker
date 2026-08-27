@@ -5,6 +5,7 @@ pubDate: 2021-07-12
 updatedDate: 2022-06-13
 author: "Roy van Wensen"
 categories: ["Energieleveranciers"]
+image: "/wp-content/uploads/2022/03/essent-tarieven.png"
 ---
 
 <figure><img width="316" height="121" src="/wp-content/uploads/2022/03/essent-tarieven.png" alt="tarieven essent" loading="lazy"></figure>

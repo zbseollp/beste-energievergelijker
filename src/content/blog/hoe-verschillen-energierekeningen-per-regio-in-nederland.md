@@ -4,6 +4,7 @@ description: "In Nederland zijn energierekeningen een belangrijk onderdeel van d
 pubDate: 2023-12-19
 author: "Roy van Wensen"
 categories: ["Blog"]
+image: "/wp-content/uploads/2023/12/pexels-plann-4549408-1.jpg"
 metaTitle: "Hoe verschillen energierekeningen per regio in Nederland? - Beste-energievergelijker.com"
 ---
 

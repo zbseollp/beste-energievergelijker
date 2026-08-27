@@ -5,6 +5,7 @@ pubDate: 2020-12-13
 updatedDate: 2022-05-27
 author: "Roy van Wensen"
 categories: ["Kennisbank"]
+image: "/wp-content/uploads/2022/03/protocol-contract-einde.jpg"
 metaTitle: "Contract Controle Protocol | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

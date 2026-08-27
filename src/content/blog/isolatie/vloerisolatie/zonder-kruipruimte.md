@@ -5,6 +5,7 @@ pubDate: 2021-04-01
 updatedDate: 2022-06-09
 author: "Roy van Wensen"
 categories: ["Isolatie"]
+image: "/wp-content/uploads/2022/03/geen-kruipruimte-vloerisolatie.jpg"
 metaTitle: "Vloerisolatie Zonder Kruipruimte | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

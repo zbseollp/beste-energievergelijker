@@ -5,6 +5,7 @@ pubDate: 2020-05-23
 updatedDate: 2022-05-27
 author: "Roy van Wensen"
 categories: ["Energieleveranciers"]
+image: "/wp-content/uploads/2022/03/qurrent-aanbiedingen.png"
 ---
 
 <figure><img width="316" height="121" src="/wp-content/uploads/2022/03/qurrent-aanbiedingen.png" alt="aanbiedingen qurrent" loading="lazy"></figure>

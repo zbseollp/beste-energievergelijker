@@ -5,6 +5,7 @@ pubDate: 2021-03-08
 updatedDate: 2022-06-09
 author: "Roy van Wensen"
 categories: ["Energie vergelijken"]
+image: "/wp-content/uploads/2022/03/ontluchten-stadsverwarming.jpg"
 metaTitle: "Ontluchten Stadsverwarming | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

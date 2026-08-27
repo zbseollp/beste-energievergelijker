@@ -5,6 +5,7 @@ pubDate: 2021-04-24
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Overstappen"]
+image: "/wp-content/uploads/2022/03/overstappen-essent.jpg"
 metaTitle: "Overstappen Essent | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

@@ -5,6 +5,7 @@ pubDate: 2020-12-16
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Isolatie"]
+image: "/wp-content/uploads/2022/03/muurisolatie.jpg"
 metaTitle: "Muurisolatie | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

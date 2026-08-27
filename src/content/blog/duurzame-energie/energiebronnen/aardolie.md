@@ -5,6 +5,7 @@ pubDate: 2021-03-17
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Duurzame energie"]
+image: "/wp-content/uploads/2022/03/aardolie.jpg"
 metaTitle: "Aardolie | Energiebronnen | Beste-Energievergelijker.com"
 ---
 

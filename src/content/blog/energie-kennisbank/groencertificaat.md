@@ -5,6 +5,7 @@ pubDate: 2020-11-01
 updatedDate: 2022-05-27
 author: "Roy van Wensen"
 categories: ["Kennisbank"]
+image: "/wp-content/uploads/2022/03/verwijderen-gasmeter.jpg"
 metaTitle: "Groencertificaat | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

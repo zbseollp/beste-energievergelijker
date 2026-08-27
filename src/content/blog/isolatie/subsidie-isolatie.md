@@ -5,6 +5,7 @@ pubDate: 2020-12-05
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Isolatie"]
+image: "/wp-content/uploads/2022/03/subsidie-isolatie.jpg"
 metaTitle: "Subsidie Isolatie | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

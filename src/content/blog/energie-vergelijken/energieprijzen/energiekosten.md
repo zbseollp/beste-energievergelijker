@@ -5,6 +5,7 @@ pubDate: 2021-03-19
 updatedDate: 2022-06-09
 author: "Roy van Wensen"
 categories: ["Energie vergelijken"]
+image: "/wp-content/uploads/2022/03/energiekosten.jpg"
 metaTitle: "Energiekosten (2022) | Beste-Energievergelijker.com"
 ---
 

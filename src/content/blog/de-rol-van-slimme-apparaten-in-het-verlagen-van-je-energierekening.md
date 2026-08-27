@@ -4,6 +4,7 @@ description: "In de huidige tijd, waar energiebesparing steeds belangrijker word
 pubDate: 2023-12-27
 author: "Roy van Wensen"
 categories: ["Blog"]
+image: "/wp-content/uploads/2023/01/6879.jpg"
 metaTitle: "De rol van slimme apparaten in het verlagen van je energierekening - Beste-energievergelijker.com"
 ---
 

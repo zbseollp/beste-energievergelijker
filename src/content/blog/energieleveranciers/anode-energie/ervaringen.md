@@ -5,6 +5,7 @@ pubDate: 2020-03-29
 updatedDate: 2022-06-15
 author: "Roy van Wensen"
 categories: ["Energieleveranciers"]
+image: "/wp-content/uploads/2022/03/anode-energie-ervaringen.png"
 ---
 
 <figure><img width="316" height="121" src="/wp-content/uploads/2022/03/anode-energie-ervaringen.png" alt="ervaringen anode energie" loading="lazy"></figure>

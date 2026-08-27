@@ -46,7 +46,7 @@ const rest = items.filter((i) => !used.has(i.id));
           <h2 class="section-title">{g.label}</h2>
           <div class="grid grid-3">
             {g.items.map((i) => (
-              <a class="card" href={`/${i.id}/`}>
+              <a class="tile" href={`/${i.id}/`}>
                 <h3>{i.data.title}</h3>
                 {i.data.description && <p>{i.data.description.slice(0, 120)}…</p>}
               </a>
@@ -59,7 +59,7 @@ const rest = items.filter((i) => !used.has(i.id));
           <h2 class="section-title">Materialen en overig</h2>
           <div class="grid grid-3">
             {rest.map((i) => (
-              <a class="card" href={`/${i.id}/`}>
+              <a class="tile" href={`/${i.id}/`}>
                 <h3>{i.data.title}</h3>
                 {i.data.description && <p>{i.data.description.slice(0, 120)}…</p>}
               </a>

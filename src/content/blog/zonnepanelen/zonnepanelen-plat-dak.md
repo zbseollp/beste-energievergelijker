@@ -5,6 +5,7 @@ pubDate: 2021-03-31
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Zonnepanelen"]
+image: "/wp-content/uploads/2021/04/zonnepanelen-plat-dak.jpg"
 metaTitle: "Zonnepanelen Op Plat Dak | | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

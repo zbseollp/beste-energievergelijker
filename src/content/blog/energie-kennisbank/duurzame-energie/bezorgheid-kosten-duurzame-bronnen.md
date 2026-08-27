@@ -5,6 +5,7 @@ pubDate: 2020-12-08
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Kennisbank"]
+image: "/wp-content/uploads/2022/03/kosten-duurzame-bronnen.jpg"
 metaTitle: "De Kosten Voor Duurzame Bronnen Zorgelijk | Beste-Energievergelijker.com"
 ---
 

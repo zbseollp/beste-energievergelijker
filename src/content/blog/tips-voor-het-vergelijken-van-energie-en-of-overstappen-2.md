@@ -5,6 +5,7 @@ pubDate: 2023-12-18
 updatedDate: 2023-12-18
 author: "Roy van Wensen"
 categories: ["Blog"]
+image: "/wp-content/uploads/2023/12/pexels-saya-kimura-401107.jpg"
 metaTitle: "Tips voor het vergelijken van energie en/of overstappen. - Beste-energievergelijker.com"
 ---
 

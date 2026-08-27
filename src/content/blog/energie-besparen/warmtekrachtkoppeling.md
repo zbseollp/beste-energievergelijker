@@ -5,6 +5,7 @@ pubDate: 2020-12-04
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Energie besparen"]
+image: "/wp-content/uploads/2022/03/warmtekrachtkoppeling.jpg"
 metaTitle: "Warmtekrachtkoppeling | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

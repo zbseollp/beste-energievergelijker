@@ -5,6 +5,7 @@ pubDate: 2020-12-03
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Kennisbank"]
+image: "/wp-content/uploads/2021/01/elektriciteitswet.jpg"
 metaTitle: "Elektriciteitswet | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

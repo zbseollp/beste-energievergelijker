@@ -5,6 +5,7 @@ pubDate: 2023-11-14
 updatedDate: 2023-11-14
 author: "Roy van Wensen"
 categories: ["Blog"]
+image: "/wp-content/uploads/2023/11/pexels-jonathan-borba-3217852.jpg"
 metaTitle: "Hoe kun je het beste energie aanbieders vergelijken? - Beste-energievergelijker.com"
 ---
 

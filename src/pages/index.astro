@@ -6,16 +6,32 @@ import PostGrid from '../components/PostGrid.astro';
 
 const all = await getCollection('blog');
 const byDate = (a: any, b: any) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf();
+const withImage = (p: any) => Boolean(p.data.image);
 
-/* leveranciers = /energieleveranciers/{merk}/ met een echt logo */
 const logos = import.meta.glob('/public/logos/*.svg', { eager: true, query: '?url' });
 const logoSlugs = new Set(Object.keys(logos).map((p) => p.split('/').pop()!.replace('.svg', '')));
 const suppliers = all
   .filter((p) => /^energieleveranciers\/[^/]+$/.test(p.id) && logoSlugs.has(p.id.split('/')[1]))
   .sort((a, b) => a.id.localeCompare(b.id));
 
-const kennis = all.filter((p) => p.id.startsWith('energie-kennisbank/')).sort(byDate).slice(0, 6);
+const kennis = all
+  .filter((p) => p.id.startsWith('energie-kennisbank/'))
+  .sort((a, b) => Number(withImage(b)) - Number(withImage(a)) || byDate(a, b))
+  .slice(0, 6);
 const posts = all.filter((p) => (p.data.categories ?? []).includes('Blog')).sort(byDate).slice(0, 3);
+
+const themas = [
+  { href: '/zonnepanelen/', t: 'Zonnepanelen', p: 'Kosten, opbrengst, salderen en terugleveren.' },
+  { href: '/isolatie/', t: 'Isolatie', p: 'Spouwmuur, vloer, dak: kosten en subsidies.' },
+  { href: '/energie-besparen/', t: 'Energie besparen', p: 'Praktische tips die direct geld schelen.' },
+  { href: '/duurzame-energie/', t: 'Duurzame energie', p: 'Groene stroom, groen gas en energiebronnen.' },
+];
+
+const stappen = [
+  { t: 'Vul je verbruik in', p: 'Stroom en gas per jaar. Weet je het niet precies? Een schatting op basis van je woning volstaat.' },
+  { t: 'Vergelijk het aanbod', p: 'Alle leveranciers naast elkaar op tarief, looptijd, cashback en voorwaarden.' },
+  { t: 'Stap over', p: 'Je sluit rechtstreeks af bij de leverancier. De opzegging bij je oude leverancier wordt geregeld.' },
+];
 ---
 
 <BaseLayout
@@ -24,26 +40,34 @@ const posts = all.filter((p) => (p.data.categories ?? []).includes('Blog')).sort
 >
   <section class="hero">
     <div class="wrap">
-      <h1>Energieleveranciers vergelijken 2026</h1>
-      <p class="lead">
-        100% onafhankelijk energieleveranciers vergelijken. Alle tarieven, acties en cashback in één overzicht, zodat
-        je direct de beste en goedkoopste energieleverancier vindt.
-      </p>
-      <ul class="usp">
-        <li>Alle Nederlandse leveranciers</li>
-        <li>Inclusief acties en cashback</li>
-        <li>Veilig en anoniem vergelijken</li>
-      </ul>
-      <div class="stats">
-        <div><strong>447.465</strong><span>mensen vergeleken de afgelopen maand</span></div>
-        <div><strong>tot €450</strong><span>gemiddelde besparing per huishouden per jaar</span></div>
-        <div><strong>Privacy</strong><span>vul veilig en anoniem je gegevens in</span></div>
-        <div><strong>9,3</strong><span>klantwaardering op basis van 32.453 reviews</span></div>
+      <div class="grid grid-2" style="gap:52px;align-items:center">
+        <div>
+          <h1>Energieleveranciers vergelijken <strong>2026</strong></h1>
+          <p class="lead">
+            100% onafhankelijk energieleveranciers vergelijken. Alle tarieven, acties en cashback in één overzicht,
+            zodat je direct de beste en goedkoopste energieleverancier vindt.
+          </p>
+          <ul class="usp">
+            <li>Alle Nederlandse leveranciers</li>
+            <li>Inclusief acties en cashback</li>
+            <li>Veilig en anoniem</li>
+          </ul>
+          <div class="cta-row">
+            <a class="btn" href="#vergelijker">Vergelijk direct</a>
+            <a class="btn btn-ghost no-arrow" href="/kennisbank/">Naar de kennisbank</a>
+          </div>
+        </div>
+        <div class="stats">
+          <div><strong>447.465</strong><span>mensen vergeleken de afgelopen maand</span></div>
+          <div><strong>tot €450</strong><span>gemiddelde besparing per huishouden per jaar</span></div>
+          <div><strong>Anoniem</strong><span>vul veilig en anoniem je gegevens in</span></div>
+          <div><strong>9,3</strong><span>klantwaardering op basis van 32.453 reviews</span></div>
+        </div>
       </div>
     </div>
   </section>
 
-  <section style="padding:38px 0 10px">
+  <section style="padding:44px 0 8px">
     <div class="wrap">
       <CompareWidget
         title="Vergelijk direct alle energieleveranciers"
@@ -54,7 +78,24 @@ const posts = all.filter((p) => (p.data.categories ?? []).includes('Blog')).sort
 
   <section>
     <div class="wrap">
-      <div class="grid grid-2" style="gap:44px;align-items:start">
+      <div class="section-head">
+        <h2 class="section-title">Overstappen in drie stappen</h2>
+        <p class="section-sub">Binnen enkele minuten geregeld &mdash; en je zit nooit vast aan ons.</p>
+      </div>
+      <ol class="steps">
+        {stappen.map((s) => (
+          <li>
+            <h3>{s.t}</h3>
+            <p>{s.p}</p>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="tint">
+    <div class="wrap">
+      <div class="grid grid-2" style="gap:56px;align-items:start">
         <div class="prose" style="max-width:none">
           <h2 style="margin-top:0">Stop vandaag nog met te veel betalen en bespaar</h2>
           <p>
@@ -65,8 +106,7 @@ const posts = all.filter((p) => (p.data.categories ?? []).includes('Blog')).sort
           <p>
             Het vergelijken van energieleveranciers is een fluitje van een cent en binnen enkele seconden geregeld. Met
             een paar klikken krijg je een totaaloverzicht met het aanbod van alle energieleveranciers in Nederland.
-            Handig zijn ook de filters, waarmee je een aanbod op maat krijgt. Een overstap of nieuwe aanvraag is
-            vervolgens binnen enkele minuten geregeld.
+            Handig zijn ook de filters, waarmee je een aanbod op maat krijgt.
           </p>
           <p>
             <a href="/energie-vergelijken/">Energie vergelijken</a> &middot;
@@ -74,49 +114,92 @@ const posts = all.filter((p) => (p.data.categories ?? []).includes('Blog')).sort
             <a href="/zakelijke-energie/">Zakelijke energie</a>
           </p>
         </div>
-        <div class="grid" style="gap:16px">
-          <div class="card"><h3>Eerlijk vergelijken</h3><p>Alle leveranciers en tarieven naast elkaar, zonder verborgen voorkeuren.</p></div>
-          <div class="card"><h3>Door experts</h3><p>Onze redactie volgt de energiemarkt op de voet en houdt alle informatie actueel.</p></div>
-          <div class="card"><h3>Snel en veilig</h3><p>Binnen enkele minuten geregeld, je sluit altijd af bij de leverancier zelf.</p></div>
-          <div class="card"><h3>Bedenktijd</h3><p>Na het afsluiten heb je 14 dagen wettelijke bedenktijd.</p></div>
+        <div class="grid grid-2" style="gap:18px">
+          <div class="tile">
+            <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3h5v5M21 3l-9 9M8 21H3v-5M3 21l9-9"/></svg></span>
+            <h3>Eerlijk vergelijken</h3>
+            <p>Alle leveranciers en tarieven naast elkaar, zonder verborgen voorkeuren.</p>
+          </div>
+          <div class="tile">
+            <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
+            <h3>Door experts</h3>
+            <p>Onze redactie volgt de energiemarkt en houdt alle informatie actueel.</p>
+          </div>
+          <div class="tile">
+            <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
+            <h3>Snel en veilig</h3>
+            <p>Binnen enkele minuten geregeld; je sluit altijd af bij de leverancier zelf.</p>
+          </div>
+          <div class="tile">
+            <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+            <h3>14 dagen bedenktijd</h3>
+            <p>Na het afsluiten heb je altijd wettelijke bedenktijd.</p>
+          </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head-row">
+        <div class="section-head">
+          <h2 class="section-title">Alle aanbieders in één overzicht</h2>
+          <p class="section-sub">Bekijk per leverancier de tarieven, aanbiedingen, ervaringen en storingsinformatie.</p>
+        </div>
+        <a class="btn btn-ghost" href="/energie-aanbieders/">Alle energie aanbieders</a>
+      </div>
+      <div class="supplier-grid">
+        {suppliers.map((s) => (
+          <a class="supplier" href={`/${s.id}/`} aria-label={s.data.title}>
+            <img src={`/logos/${s.id.split('/')[1]}.svg`} alt={`${s.data.title} logo`} loading="lazy" />
+          </a>
+        ))}
       </div>
     </div>
   </section>
 
   <section class="tint">
     <div class="wrap">
-      <h2 class="section-title">Alle aanbieders in één overzicht</h2>
-      <p class="section-sub">
-        Bekijk per leverancier de tarieven, aanbiedingen, ervaringen en storingsinformatie.
-      </p>
-      <div class="supplier-grid">
-        {suppliers.map((s) => (
-          <a class="supplier" href={`/${s.id}/`}>
-            <img src={`/logos/${s.id.split('/')[1]}.svg`} alt={`${s.data.title} logo`} loading="lazy" />
+      <div class="section-head">
+        <h2 class="section-title">Verder besparen</h2>
+        <p class="section-sub">Niet alleen je contract, ook je woning bepaalt je energierekening.</p>
+      </div>
+      <div class="grid grid-4">
+        {themas.map((t) => (
+          <a class="tile" href={t.href}>
+            <h3>{t.t}</h3>
+            <p>{t.p}</p>
           </a>
         ))}
       </div>
-      <p style="margin-top:22px"><a class="btn btn-ghost" href="/energie-aanbieders/">Alle energie aanbieders</a></p>
     </div>
   </section>
 
   <section>
     <div class="wrap">
-      <h2 class="section-title">Uit de kennisbank</h2>
-      <p class="section-sub">Alles over energiebelasting, tarieven, meterstanden en contracten &mdash; in gewone taal uitgelegd.</p>
+      <div class="section-head-row">
+        <div class="section-head">
+          <h2 class="section-title">Uit de kennisbank</h2>
+          <p class="section-sub">Energiebelasting, tarieven, meterstanden en contracten &mdash; in gewone taal uitgelegd.</p>
+        </div>
+        <a class="btn btn-ghost" href="/kennisbank/">Naar de kennisbank</a>
+      </div>
       <PostGrid posts={kennis} kicker={false} showDate={false} />
-      <p style="margin-top:24px"><a class="btn btn-ghost" href="/kennisbank/">Naar de kennisbank</a></p>
     </div>
   </section>
 
   {posts.length > 0 && (
     <section class="tint">
       <div class="wrap">
-        <h2 class="section-title">Laatste artikelen</h2>
-        <p class="section-sub">Nieuws en achtergrond over de energiemarkt.</p>
+        <div class="section-head-row">
+          <div class="section-head">
+            <h2 class="section-title">Laatste artikelen</h2>
+            <p class="section-sub">Nieuws en achtergrond over de energiemarkt.</p>
+          </div>
+          <a class="btn btn-ghost" href="/blog/">Alle artikelen</a>
+        </div>
         <PostGrid posts={posts} kicker={false} />
-        <p style="margin-top:24px"><a class="btn btn-ghost" href="/blog/">Alle artikelen</a></p>
       </div>
     </section>
   )}

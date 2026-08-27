@@ -4,6 +4,7 @@ description: "In de huidige, snel veranderende wereld van energiebeheer is het c
 pubDate: 2023-12-22
 author: "Roy van Wensen"
 categories: ["Blog"]
+image: "/wp-content/uploads/2023/12/razlan-hanafiah-3nROCRjZiFQ-unsplash.jpg"
 metaTitle: "Leegstandscontract Energie: Alles wat je moet weten - Beste-energievergelijker.com"
 ---
 

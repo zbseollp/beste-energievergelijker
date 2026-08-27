@@ -5,6 +5,7 @@ pubDate: 2020-09-19
 updatedDate: 2022-05-27
 author: "Roy van Wensen"
 categories: ["Zakelijke energie"]
+image: "/wp-content/uploads/2022/03/scholt-energy-control.png"
 metaTitle: "Scholt Energy Control | Reviews & Beoordelingen | Beste-Energievergelijker.com"
 ---
 

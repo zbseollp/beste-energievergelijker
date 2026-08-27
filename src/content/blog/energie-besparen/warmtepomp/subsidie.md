@@ -5,6 +5,7 @@ pubDate: 2021-03-29
 updatedDate: 2022-06-13
 author: "Roy van Wensen"
 categories: ["Energie besparen"]
+image: "/wp-content/uploads/2022/03/waterpomp-subsidie.jpg"
 metaTitle: "Waterpomp Subsidie | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

@@ -5,6 +5,7 @@ pubDate: 2020-12-16
 updatedDate: 2022-05-27
 author: "Roy van Wensen"
 categories: ["Kennisbank"]
+image: "/wp-content/uploads/2021/01/calorische-waarde.jpg"
 metaTitle: "Calorische Waarde | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

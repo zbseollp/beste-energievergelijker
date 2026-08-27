@@ -5,6 +5,7 @@ pubDate: 2021-03-23
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Energie vergelijken"]
+image: "/wp-content/uploads/2022/03/energie-contract.jpg"
 metaTitle: "Energiecontract | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

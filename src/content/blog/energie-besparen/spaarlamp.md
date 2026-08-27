@@ -5,6 +5,7 @@ pubDate: 2020-12-06
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Energie besparen"]
+image: "/wp-content/uploads/2022/03/spaarlamp.jpg"
 metaTitle: "Spaarlamp | Energie Besparen | Beste-Energievergelijker.com"
 ---
 

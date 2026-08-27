@@ -5,6 +5,7 @@ pubDate: 2020-12-31
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Energieleveranciers"]
+image: "/wp-content/uploads/2022/03/beste-energieleverancier-met-zonnepanelen.jpg"
 metaTitle: "Beste Energieleveranciers Met Zonnepanelen 2022 | Beste-Energievergelijker.com"
 ---
 

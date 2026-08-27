@@ -5,6 +5,7 @@ pubDate: 2021-02-22
 updatedDate: 2022-06-09
 author: "Roy van Wensen"
 categories: ["Kennisbank"]
+image: "/wp-content/uploads/2022/03/groen-gas-niet-altijd-duurzaam.jpg"
 metaTitle: "Groene Energie Is Lang Niet Altijd Duurzaam | Beste-Energievergelijker.com"
 ---
 

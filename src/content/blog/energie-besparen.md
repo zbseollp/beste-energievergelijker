@@ -5,6 +5,7 @@ pubDate: 2020-12-15
 updatedDate: 2022-05-26
 author: "Roy van Wensen"
 categories: ["Energie besparen"]
+image: "/wp-content/uploads/2022/03/besparen-energie.jpg"
 metaTitle: "Energie Besparen | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

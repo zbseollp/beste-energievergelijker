@@ -5,6 +5,7 @@ pubDate: 2020-03-01
 updatedDate: 2022-05-28
 author: "Roy van Wensen"
 categories: ["Energieleveranciers"]
+image: "/wp-content/uploads/2022/03/energiedirect-aanbiedingen.png"
 ---
 
 <figure><img width="316" height="121" src="/wp-content/uploads/2022/03/energiedirect-aanbiedingen.png" alt="aanbiedingen energiedirect" loading="lazy"></figure>

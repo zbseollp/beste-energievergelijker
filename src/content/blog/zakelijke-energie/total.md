@@ -5,6 +5,7 @@ pubDate: 2020-04-18
 updatedDate: 2022-05-27
 author: "Roy van Wensen"
 categories: ["Zakelijke energie"]
+image: "/wp-content/uploads/2022/03/total-energie.png"
 metaTitle: "Total Gas & Power Energie | Reviews & Beoordelingen | Beste-Energievergelijker,com"
 ---
 

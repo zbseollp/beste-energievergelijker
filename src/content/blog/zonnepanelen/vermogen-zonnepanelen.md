@@ -5,6 +5,7 @@ pubDate: 2021-04-03
 updatedDate: 2022-06-03
 author: "Roy van Wensen"
 categories: ["Zonnepanelen"]
+image: "/wp-content/uploads/2022/03/vermogen-zonnepanelen.jpg"
 metaTitle: "Vermogen Zonnepanelen | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

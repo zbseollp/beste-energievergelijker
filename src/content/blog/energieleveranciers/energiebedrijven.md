@@ -5,6 +5,7 @@ pubDate: 2021-01-10
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Energieleveranciers"]
+image: "/wp-content/uploads/2022/03/energiebedrijven.jpg"
 metaTitle: "Energiebedrijven (2022) | Alle Bedrijven Op 1 Rij | Beste-Energievergelijker.com"
 ---
 

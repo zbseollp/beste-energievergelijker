@@ -5,6 +5,7 @@ pubDate: 2020-12-23
 updatedDate: 2022-06-09
 author: "Roy van Wensen"
 categories: ["Duurzame energie"]
+image: "/wp-content/uploads/2022/03/krachtstroom-aanleggen.jpg"
 metaTitle: "Krachtstroom Aanleggen | Energiebronnen | Beste-Energievergelijker.com"
 ---
 

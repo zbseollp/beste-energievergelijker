@@ -5,6 +5,7 @@ pubDate: 2021-02-20
 updatedDate: 2022-05-27
 author: "Roy van Wensen"
 categories: ["Kennisbank"]
+image: "/wp-content/uploads/2021/03/jaarafrekening.jpg"
 metaTitle: "Jaarafrekening Energie | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

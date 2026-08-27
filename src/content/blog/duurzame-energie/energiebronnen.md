@@ -5,6 +5,7 @@ pubDate: 2021-03-19
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Duurzame energie"]
+image: "/wp-content/uploads/2022/03/energie-bronnen.jpg"
 metaTitle: "Energiebronnen | Duurzame Energie | Beste-Energievergelijker.com"
 ---
 

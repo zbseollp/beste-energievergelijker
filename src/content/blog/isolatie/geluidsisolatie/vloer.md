@@ -5,6 +5,7 @@ pubDate: 2020-12-22
 updatedDate: 2022-06-09
 author: "Roy van Wensen"
 categories: ["Isolatie"]
+image: "/wp-content/uploads/2022/03/geluidsisolatie-vloeren.jpg"
 metaTitle: "Geluidsisolatie Vloer | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

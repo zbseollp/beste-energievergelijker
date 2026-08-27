@@ -1,23 +1,49 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import Toc from '../components/Toc.astro';
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
   entry: CollectionEntry<'blog'>;
+  headings?: { depth: number; slug: string; text: string }[];
 }
-const { entry } = Astro.props;
-const { title, description, pubDate, updatedDate, author, categories = [], metaTitle } = entry.data as any;
-const fmt = (d: Date) =>
-  new Intl.DateTimeFormat('nl-NL', { day: 'numeric', month: 'long', year: 'numeric' }).format(d);
+const { entry, headings = [] } = Astro.props;
+const d = entry.data as any;
+const { title, description, pubDate, updatedDate, author, categories = [], metaTitle, image } = d;
+const fmt = (x: Date) =>
+  new Intl.DateTimeFormat('nl-NL', { day: 'numeric', month: 'long', year: 'numeric' }).format(x);
+
+const section = entry.id.includes('/') ? entry.id.split('/')[0] : null;
+const SECTION_LABEL: Record<string, string> = {
+  energieleveranciers: 'Energieleveranciers',
+  'energie-kennisbank': 'Kennisbank',
+  'energie-vergelijken': 'Energie vergelijken',
+  'overstappen-energie': 'Overstappen energie',
+  'zakelijke-energie': 'Zakelijke energie',
+  'duurzame-energie': 'Duurzame energie',
+  'energie-besparen': 'Energie besparen',
+  zonnepanelen: 'Zonnepanelen',
+  isolatie: 'Isolatie',
+};
+const sectionHref: Record<string, string> = {
+  'energie-kennisbank': '/kennisbank/',
+  energieleveranciers: '/energie-aanbieders/',
+};
 ---
-<BaseLayout title={metaTitle || title} description={description}>
+<BaseLayout title={metaTitle || title} description={description} image={image}>
+  <div class="progress" id="progress"></div>
+
   <section class="page-hero">
     <div class="wrap">
-      {categories.length > 0 && (
-        <p style="margin:0 0 10px;font-size:.8rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--green)">
-          {categories.join(' · ')}
-        </p>
-      )}
+      <p class="crumbs">
+        <a href="/">Home</a>
+        {section && SECTION_LABEL[section] && (
+          <>
+            <span>/</span>
+            <a href={sectionHref[section] || `/${section}/`}>{SECTION_LABEL[section]}</a>
+          </>
+        )}
+      </p>
       <h1>{title}</h1>
       {description && <p>{description}</p>}
     </div>
@@ -26,10 +52,16 @@ const fmt = (d: Date) =>
   <div class="article">
     <div class="wrap article-layout">
       <article>
+        {image && (
+          <figure class="hero-figure">
+            <img src={image} alt="" loading="eager" decoding="async" />
+          </figure>
+        )}
         <div class="meta-line">
+          {categories[0] && <span class="badge">{categories[0]}</span>}
           {author && <span>Door <strong>{author}</strong></span>}
           <span>Gepubliceerd {fmt(pubDate)}</span>
-          {updatedDate && <span>Laatste update {fmt(updatedDate)}</span>}
+          {updatedDate && <span>Bijgewerkt {fmt(updatedDate)}</span>}
         </div>
         <div class="prose">
           <slot />
@@ -37,19 +69,39 @@ const fmt = (d: Date) =>
       </article>
 
       <aside class="aside">
-        <div class="box">
+        <Toc headings={headings} />
+        <div class="box accent">
           <h3>Bespaar op je energierekening</h3>
           <p>Vergelijk het complete aanbod van alle energieleveranciers en zie direct wat je bespaart.</p>
           <a class="btn" href="/#vergelijker">Vergelijk energie</a>
         </div>
         <div class="box">
           <h3>Veelgelezen</h3>
-          <p style="margin-bottom:6px"><a href="/energie-vergelijken/energieprijzen/">Actuele energieprijzen</a></p>
-          <p style="margin-bottom:6px"><a href="/energieleveranciers/beste/">Beste energieleverancier</a></p>
-          <p style="margin-bottom:6px"><a href="/energie-besparen/10-tips/">10 tips om energie te besparen</a></p>
-          <p style="margin-bottom:0"><a href="/zonnepanelen/">Alles over zonnepanelen</a></p>
+          <div class="links">
+            <a href="/energie-vergelijken/energieprijzen/">Actuele energieprijzen</a>
+            <a href="/energieleveranciers/beste/">Beste energieleverancier</a>
+            <a href="/energie-besparen/10-tips/">10 tips om energie te besparen</a>
+            <a href="/zonnepanelen/">Alles over zonnepanelen</a>
+          </div>
         </div>
       </aside>
     </div>
   </div>
+
+  <script is:inline>
+    (function () {
+      var bar = document.getElementById('progress');
+      var art = document.querySelector('.article');
+      if (!bar || !art) return;
+      function upd() {
+        var top = art.offsetTop;
+        var h = art.offsetHeight - window.innerHeight;
+        var p = h > 0 ? ((window.scrollY - top) / h) * 100 : 0;
+        bar.style.width = Math.max(0, Math.min(100, p)) + '%';
+      }
+      document.addEventListener('scroll', upd, { passive: true });
+      window.addEventListener('resize', upd);
+      upd();
+    })();
+  </script>
 </BaseLayout>

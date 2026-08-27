@@ -5,6 +5,7 @@ pubDate: 2023-12-22
 updatedDate: 2023-12-22
 author: "Roy van Wensen"
 categories: ["Blog"]
+image: "/wp-content/uploads/2022/03/compare-energy-prices-netherlands.jpg"
 metaTitle: "Hoe je het beste elektriciteitsplan vindt met slimme vergelijkingstools - Beste-energievergelijker.com"
 ---
 

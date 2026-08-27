@@ -5,6 +5,7 @@ pubDate: 2021-03-16
 updatedDate: 2022-06-09
 author: "Roy van Wensen"
 categories: ["Energie vergelijken"]
+image: "/wp-content/uploads/2022/03/gas-leveranciers.jpg"
 metaTitle: "Gas Leveranciers (2022) | Beste-Energievergelijker.com"
 ---
 

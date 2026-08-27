@@ -5,6 +5,7 @@ pubDate: 2021-04-11
 updatedDate: 2022-05-28
 author: "Roy van Wensen"
 categories: ["Zonnepanelen"]
+image: "/wp-content/uploads/2022/03/lening-zonnepanelen.jpg"
 metaTitle: "Lening Zonnepanelen | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

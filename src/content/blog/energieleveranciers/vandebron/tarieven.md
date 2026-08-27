@@ -5,6 +5,7 @@ pubDate: 2021-08-11
 updatedDate: 2022-05-27
 author: "Roy van Wensen"
 categories: ["Energieleveranciers"]
+image: "/wp-content/uploads/2022/03/van-de-bron-tarieven.png"
 ---
 
 <figure><img width="316" height="121" src="/wp-content/uploads/2022/03/van-de-bron-tarieven.png" alt="tarieven van de bron" loading="lazy"></figure>

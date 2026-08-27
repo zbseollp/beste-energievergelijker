@@ -5,6 +5,7 @@ pubDate: 2020-11-11
 updatedDate: 2022-05-23
 author: "Roy van Wensen"
 categories: ["Zakelijke energie"]
+image: "/wp-content/uploads/2022/03/budget-energie-zakelijk.png"
 ---
 
 <figure><img width="316" height="121" src="/wp-content/uploads/2022/03/budget-energie-zakelijk.png" alt="budget energie zakelijke energie" loading="lazy"></figure>

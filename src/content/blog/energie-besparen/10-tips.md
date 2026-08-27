@@ -5,6 +5,7 @@ pubDate: 2020-12-14
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Energie besparen"]
+image: "/wp-content/uploads/2022/03/10-tips-voor-het-besparen-van-energie.jpg"
 metaTitle: "10 Tips Om Energie Besparen Eenvoudig Te Maken | Beste-Energievergelijker.com"
 ---
 

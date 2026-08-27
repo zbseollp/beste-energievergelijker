@@ -5,6 +5,7 @@ pubDate: 2020-07-14
 updatedDate: 2022-06-15
 author: "Roy van Wensen"
 categories: ["Energieleveranciers"]
+image: "/wp-content/uploads/2022/03/budget-energie-ervaringen.png"
 ---
 
 <figure><img width="316" height="121" src="/wp-content/uploads/2022/03/budget-energie-ervaringen.png" alt="ervaringen budget energie" loading="lazy"></figure>

@@ -5,6 +5,7 @@ pubDate: 2021-02-23
 updatedDate: 2022-06-09
 author: "Roy van Wensen"
 categories: ["Kennisbank"]
+image: "/wp-content/uploads/2019/02/02/groen-gas-in-nederland.jpg"
 metaTitle: "Groen Gas In Nederland | Lees De Informatiegids | Beste-Energievergelijker.com"
 ---
 

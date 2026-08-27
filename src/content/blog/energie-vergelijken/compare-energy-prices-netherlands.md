@@ -5,6 +5,7 @@ pubDate: 2021-03-24
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Energie vergelijken"]
+image: "/wp-content/uploads/2022/03/compare-energy-prices-netherlands.jpg"
 metaTitle: "Compare Energy Prices In The Netherlands | Beste-Energievergelijker.com"
 ---
 

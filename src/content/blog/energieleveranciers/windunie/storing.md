@@ -5,6 +5,7 @@ pubDate: 2021-09-29
 updatedDate: 2022-05-27
 author: "Roy van Wensen"
 categories: ["Energieleveranciers"]
+image: "/wp-content/uploads/2022/03/windunie-storingen.png"
 ---
 
 <figure><img width="316" height="121" src="/wp-content/uploads/2022/03/windunie-storingen.png" alt="storingen welkom energie" loading="lazy"></figure>

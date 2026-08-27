@@ -5,6 +5,7 @@ pubDate: 2021-03-01
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Energieleveranciers"]
+image: "/wp-content/uploads/2022/03/energie-rotterdam.jpg"
 metaTitle: "Energie Rotterdam | Beste-Energievergelijker.com"
 ---
 

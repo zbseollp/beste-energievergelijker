@@ -5,6 +5,7 @@ pubDate: 2021-03-17
 updatedDate: 2022-06-09
 author: "Roy van Wensen"
 categories: ["Energie vergelijken"]
+image: "/wp-content/uploads/2022/03/verwachting-energieprijzen.jpg"
 metaTitle: "Verwachting Energieprijzen (2022) | Beste-Energievergelijker.com"
 ---
 

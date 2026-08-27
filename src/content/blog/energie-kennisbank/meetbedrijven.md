@@ -5,6 +5,7 @@ pubDate: 2021-02-11
 updatedDate: 2022-06-08
 author: "Roy van Wensen"
 categories: ["Kennisbank"]
+image: "/wp-content/uploads/2022/03/meetbedrijven.jpg"
 metaTitle: "Meetbedrijven | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

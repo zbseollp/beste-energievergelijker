@@ -5,6 +5,7 @@ pubDate: 2021-03-31
 updatedDate: 2022-06-09
 author: "Roy van Wensen"
 categories: ["Isolatie"]
+image: "/wp-content/uploads/2022/03/zolder-isoleren.jpg"
 metaTitle: "Zolder Isoleren | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

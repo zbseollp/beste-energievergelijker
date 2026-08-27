@@ -5,6 +5,7 @@ pubDate: 2020-12-20
 updatedDate: 2022-06-03
 author: "Roy van Wensen"
 categories: ["Isolatie"]
+image: "/wp-content/uploads/2022/03/glaswol-isolatie.jpg"
 metaTitle: "Glaswol Isolatie | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

@@ -5,6 +5,7 @@ pubDate: 2021-03-11
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Energie vergelijken"]
+image: "/wp-content/uploads/2022/03/kassa-vara-tros-radar-energie-vergelijken.jpg"
 metaTitle: "Kassa - VARA - TROS - Radar & Energie Vergelijken | Beste-Energievergelijker.com"
 ---
 

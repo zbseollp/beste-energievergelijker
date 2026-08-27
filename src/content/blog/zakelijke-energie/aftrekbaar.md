@@ -5,6 +5,7 @@ pubDate: 2021-04-25
 updatedDate: 2022-06-03
 author: "Roy van Wensen"
 categories: ["Zakelijke energie"]
+image: "/wp-content/uploads/2022/03/aftrekbaar-zakelijke-energie.jpg"
 metaTitle: "Zakelijke Energie BTW Aftrekbaar? | Bekijk Onze Informatiegids"
 ---
 

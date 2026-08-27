@@ -5,6 +5,7 @@ pubDate: 2020-11-08
 updatedDate: 2022-05-27
 author: "Roy van Wensen"
 categories: ["Zakelijke energie"]
+image: "/wp-content/uploads/2022/03/greenchoice-zakelijke-energie.png"
 metaTitle: "Greenchoice Zakelijk Energie | Bekijk & Vergelijk | Beste-Energievergelijker.com"
 ---
 

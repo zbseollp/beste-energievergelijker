@@ -5,6 +5,7 @@ pubDate: 2020-11-23
 updatedDate: 2022-06-09
 author: "Roy van Wensen"
 categories: ["Kennisbank"]
+image: "/wp-content/uploads/2022/03/energiebelasting-vermindering.jpg"
 metaTitle: "Vermindering Energiebelasting | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

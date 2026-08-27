@@ -5,6 +5,7 @@ pubDate: 2020-11-25
 updatedDate: 2022-06-09
 author: "Roy van Wensen"
 categories: ["Kennisbank"]
+image: "/wp-content/uploads/2022/03/ode.jpg"
 metaTitle: "Energiebelasting ODE | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

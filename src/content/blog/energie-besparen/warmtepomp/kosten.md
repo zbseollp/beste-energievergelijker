@@ -5,6 +5,7 @@ pubDate: 2021-03-30
 updatedDate: 2022-06-09
 author: "Roy van Wensen"
 categories: ["Energie besparen"]
+image: "/wp-content/uploads/2022/03/kosten-waterpomp.jpg"
 metaTitle: "Waterpomp Kosten | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

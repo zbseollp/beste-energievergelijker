@@ -5,6 +5,7 @@ pubDate: 2021-04-02
 updatedDate: 2022-06-09
 author: "Roy van Wensen"
 categories: ["Energie besparen"]
+image: "/wp-content/uploads/2022/03/waterpomp-hybride.jpg"
 metaTitle: "Waterpomp Hybride | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

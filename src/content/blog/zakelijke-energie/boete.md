@@ -5,6 +5,7 @@ pubDate: 2021-04-24
 updatedDate: 2022-06-03
 author: "Roy van Wensen"
 categories: ["Zakelijke energie"]
+image: "/wp-content/uploads/2022/03/boete-zakelijke-energie.jpg"
 ---
 
 Als je wilt overstappen naar een andere energieleverancier voor je energiecontract afloopt, loop je de kans op een boete bij een zakelijk energiecontract. Soms blijkt tijdens de looptijd dat het energiecontract niet helemaal bij je verbruik past, of dat je ergens anders veel voordeliger een energiecontract kunt afsluiten. Maar als je eerder wilt overstappen krijg je een boete. Waarom krijg je die boete, en kun je een boete voorkomen? Je leest er meer over op deze pagina.

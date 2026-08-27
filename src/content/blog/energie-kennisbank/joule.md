@@ -5,6 +5,7 @@ pubDate: 2021-02-19
 updatedDate: 2022-05-27
 author: "Roy van Wensen"
 categories: ["Kennisbank"]
+image: "/wp-content/uploads/2022/03/joule.jpg"
 metaTitle: "Wat Is Een Joule? | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

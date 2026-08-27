@@ -5,6 +5,7 @@ pubDate: 2020-12-10
 updatedDate: 2022-06-09
 author: "Roy van Wensen"
 categories: ["Isolatie"]
+image: "/wp-content/uploads/2022/03/knauf-supafill.jpg"
 metaTitle: "Knauf Supafill | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

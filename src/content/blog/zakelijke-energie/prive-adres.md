@@ -5,6 +5,7 @@ pubDate: 2021-04-07
 updatedDate: 2022-06-09
 author: "Roy van Wensen"
 categories: ["Zakelijke energie"]
+image: "/wp-content/uploads/2019/02/02/Zakelijke-energie-voor-prive-woning-unsmushed.jpg"
 metaTitle: "Is Zakelijke Energie Op Een Privéadres Mogelijk? | Beste-Energievergelijker.com"
 ---
 

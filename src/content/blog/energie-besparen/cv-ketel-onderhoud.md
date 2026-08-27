@@ -5,6 +5,7 @@ pubDate: 2020-12-13
 updatedDate: 2022-05-26
 author: "Roy van Wensen"
 categories: ["Energie besparen"]
+image: "/wp-content/uploads/2022/03/cv-ketel-onderhoud.jpg"
 metaTitle: "CV Ketel Onderhoud | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

@@ -5,6 +5,7 @@ pubDate: 2021-04-27
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Luchtontvochtiger"]
+image: "/wp-content/uploads/2022/03/luchtontvochtiger.jpg"
 metaTitle: "Luchtontvochtiger Kopen? | Top 5 + Gids | Beste-Energievergelijker.com"
 ---
 

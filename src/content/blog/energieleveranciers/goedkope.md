@@ -5,6 +5,7 @@ pubDate: 2021-03-07
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Energieleveranciers"]
+image: "/wp-content/uploads/2022/03/goedkope-energieleveranciers.jpg"
 metaTitle: "Goedkope Energieleveranciers (2022) | TOP 10 | Beste-Energievergelijker.com"
 ---
 

@@ -5,6 +5,7 @@ pubDate: 2021-03-11
 updatedDate: 2022-06-13
 author: "Roy van Wensen"
 categories: ["Energie vergelijken"]
+image: "/wp-content/uploads/2022/03/gas-vergelijken.jpg"
 metaTitle: "Gas Vergelijken | Vergelijk & Bespaar Direct | Beste-Energievergelijker.com"
 ---
 

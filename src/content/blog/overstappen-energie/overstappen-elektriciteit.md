@@ -5,6 +5,7 @@ pubDate: 2021-04-27
 updatedDate: 2022-06-09
 author: "Roy van Wensen"
 categories: ["Overstappen"]
+image: "/wp-content/uploads/2022/03/elektriciteit-overstappen-featured-image.jpg"
 metaTitle: "Overstappen Van Elektriciteit, Hoe Werkt Het? | Lees Er Hier Alles Over!"
 ---
 

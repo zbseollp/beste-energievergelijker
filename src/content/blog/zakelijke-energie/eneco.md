@@ -5,6 +5,7 @@ pubDate: 2021-06-05
 updatedDate: 2022-05-28
 author: "Roy van Wensen"
 categories: ["Zakelijke energie"]
+image: "/wp-content/uploads/2022/03/zakelijke-energie-eneco.png"
 metaTitle: "Eneco Zakelijk | Vergelijk & Bespaar Nu | Beste-Energievergelijker.com"
 ---
 

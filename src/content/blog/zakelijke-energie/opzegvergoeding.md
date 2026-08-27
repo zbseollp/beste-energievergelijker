@@ -5,6 +5,7 @@ pubDate: 2021-04-08
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Zakelijke energie"]
+image: "/wp-content/uploads/2022/03/opzegvergoeding-zakelijke-energie.jpg"
 metaTitle: "Opzegvergoeding Bij Zakelijke Energie Pakketten | Beste-Energievergelijker.com"
 ---
 

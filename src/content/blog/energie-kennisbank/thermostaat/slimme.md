@@ -5,6 +5,7 @@ pubDate: 2021-01-17
 updatedDate: 2022-05-26
 author: "Roy van Wensen"
 categories: ["Kennisbank"]
+image: "/wp-content/uploads/2022/03/beste-slimme-thermostaat.jpg"
 metaTitle: "Slimme Thermostaat | Top 5 + Gids (2022) | Beste-Energievergelijker.com"
 ---
 

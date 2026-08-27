@@ -5,6 +5,7 @@ pubDate: 2020-11-18
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Kennisbank"]
+image: "/wp-content/uploads/2019/02/02/energie-markt.jpg"
 metaTitle: "Energiemarkt | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

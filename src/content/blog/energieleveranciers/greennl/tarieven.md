@@ -5,6 +5,7 @@ pubDate: 2020-09-01
 updatedDate: 2022-05-27
 author: "Roy van Wensen"
 categories: ["Energieleveranciers"]
+image: "/wp-content/uploads/2022/03/greennl-tarieven.png"
 ---
 
 <figure><img width="316" height="121" src="/wp-content/uploads/2022/03/greennl-tarieven.png" alt="tarieven greennl" loading="lazy"></figure>

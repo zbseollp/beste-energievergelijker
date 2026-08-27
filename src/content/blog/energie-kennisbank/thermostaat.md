@@ -5,6 +5,7 @@ pubDate: 2021-01-18
 updatedDate: 2022-06-09
 author: "Roy van Wensen"
 categories: ["Kennisbank"]
+image: "/wp-content/uploads/2022/03/beste-thermostaat.jpg"
 metaTitle: "Thermostaat | Top 5 + Gids (2022) | Beste-Energievergelijker.com"
 ---
 

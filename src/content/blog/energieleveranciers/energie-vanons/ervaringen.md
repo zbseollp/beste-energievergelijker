@@ -5,6 +5,7 @@ pubDate: 2020-09-25
 updatedDate: 2022-05-28
 author: "Roy van Wensen"
 categories: ["Energieleveranciers"]
+image: "/wp-content/uploads/2022/03/energie-vanons-ervaringen.png"
 ---
 
 <figure><img width="316" height="121" src="/wp-content/uploads/2022/03/energie-vanons-ervaringen.png" alt="ervaringen energie vanons" loading="lazy"></figure>

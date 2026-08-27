@@ -5,6 +5,7 @@ pubDate: 2021-03-10
 updatedDate: 2022-06-08
 author: "Roy van Wensen"
 categories: ["Energie vergelijken"]
+image: "/wp-content/uploads/2022/03/stadsverwarming.jpg"
 metaTitle: "Stadsverwarming | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

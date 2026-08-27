@@ -5,6 +5,7 @@ pubDate: 2021-03-16
 updatedDate: 2022-06-14
 author: "Roy van Wensen"
 categories: ["Energie vergelijken"]
+image: "/wp-content/uploads/2022/03/gas-en-licht-vergelijken.jpg"
 metaTitle: "Gas en Licht Vergelijken | Onafhankelijk Vergelijken & Besparen"
 ---
 

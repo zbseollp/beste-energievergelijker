@@ -5,6 +5,7 @@ pubDate: 2020-03-24
 updatedDate: 2022-05-28
 author: "Roy van Wensen"
 categories: ["Zakelijke energie"]
+image: "/wp-content/uploads/2022/03/engie-zakelijke-energie.png"
 ---
 
 <figure><img width="316" height="121" src="/wp-content/uploads/2022/03/engie-zakelijke-energie.png" alt="engie zakelijke energie" loading="lazy"></figure>

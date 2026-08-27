@@ -5,6 +5,7 @@ pubDate: 2021-04-22
 updatedDate: 2022-05-20
 author: "Roy van Wensen"
 categories: ["Overstappen"]
+image: "/wp-content/uploads/2022/03/cadeau-overstappen-energie.jpg"
 metaTitle: "Overstappen Met Cadeau | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

@@ -5,6 +5,7 @@ pubDate: 2021-04-05
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Zakelijke energie"]
+image: "/wp-content/uploads/2022/03/energietarieven-zakelijk.jpg"
 metaTitle: "Zakelijke Energie Tarieven | Bekijk Nu Alle Tarieven | Beste-Energievergelijker.com"
 ---
 

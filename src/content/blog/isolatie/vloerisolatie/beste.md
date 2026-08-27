@@ -5,6 +5,7 @@ pubDate: 2021-04-03
 updatedDate: 2022-06-09
 author: "Roy van Wensen"
 categories: ["Isolatie"]
+image: "/wp-content/uploads/2022/03/beste-vloerisolatie.jpg"
 metaTitle: "Beste Vloerisolatie | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

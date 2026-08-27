@@ -5,6 +5,7 @@ pubDate: 2020-12-27
 updatedDate: 2022-05-27
 author: "Roy van Wensen"
 categories: ["Energieleveranciers"]
+image: "/wp-content/uploads/2022/03/van-de-bron-review.png"
 ---
 
 <figure><img width="316" height="121" src="/wp-content/uploads/2022/03/van-de-bron-review.png" alt="review van de bron" loading="lazy"></figure>

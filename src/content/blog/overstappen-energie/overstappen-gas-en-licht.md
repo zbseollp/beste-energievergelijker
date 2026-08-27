@@ -5,6 +5,7 @@ pubDate: 2021-04-27
 updatedDate: 2022-06-09
 author: "Roy van Wensen"
 categories: ["Overstappen"]
+image: "/wp-content/uploads/2019/02/02/gas-licht-overstappen-featured-image.jpg"
 metaTitle: "Overstappen Van Gas en Licht , Hoe Werkt Het? | Lees Er Hier Alles Over!"
 ---
 

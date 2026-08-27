@@ -5,6 +5,7 @@ pubDate: 2021-03-22
 updatedDate: 2022-06-08
 author: "Roy van Wensen"
 categories: ["Duurzame energie"]
+image: "/wp-content/uploads/2019/02/02/featured-image-duurzame-energie.jpg"
 metaTitle: "Duurzame Energie | Alles Van A-Z | Beste-Energievergelijker.com"
 ---
 

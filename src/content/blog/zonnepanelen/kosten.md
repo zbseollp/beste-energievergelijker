@@ -5,6 +5,7 @@ pubDate: 2021-04-12
 updatedDate: 2022-06-08
 author: "Roy van Wensen"
 categories: ["Zonnepanelen"]
+image: "/wp-content/uploads/2022/03/kosten-zonnepanelen.jpg"
 metaTitle: "Kosten Zonnepanelen | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

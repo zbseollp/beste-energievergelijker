@@ -5,6 +5,7 @@ pubDate: 2021-10-28
 updatedDate: 2022-05-27
 author: "Roy van Wensen"
 categories: ["Energieleveranciers"]
+image: "/wp-content/uploads/2022/03/nle-aanbiedingen.png"
 ---
 
 <figure><img width="316" height="121" src="/wp-content/uploads/2022/03/nle-aanbiedingen.png" alt="aanbiedingen nle" loading="lazy"></figure>

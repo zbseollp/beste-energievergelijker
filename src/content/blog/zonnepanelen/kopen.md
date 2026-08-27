@@ -5,6 +5,7 @@ pubDate: 2021-04-13
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Zonnepanelen"]
+image: "/wp-content/uploads/2022/03/zonnepanelen-kopen.jpg"
 metaTitle: "Zonnepanelen Kopen | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

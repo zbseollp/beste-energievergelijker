@@ -5,6 +5,7 @@ pubDate: 2020-12-12
 updatedDate: 2022-05-27
 author: "Roy van Wensen"
 categories: ["Kennisbank"]
+image: "/wp-content/uploads/2022/03/einde-contract-register.jpg"
 metaTitle: "Contract Einde Register | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

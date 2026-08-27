@@ -5,6 +5,7 @@ pubDate: 2020-03-11
 updatedDate: 2022-06-14
 author: "Roy van Wensen"
 categories: ["Energieleveranciers"]
+image: "/wp-content/uploads/2022/03/leon-zeewolde-energie-tarieven.png"
 ---
 
 <figure><img width="316" height="121" src="/wp-content/uploads/2022/03/leon-zeewolde-energie-tarieven.png" alt="tarieven leon zeewolde energie" loading="lazy"></figure>

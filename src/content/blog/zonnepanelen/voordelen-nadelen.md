@@ -5,6 +5,7 @@ pubDate: 2021-04-02
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Zonnepanelen"]
+image: "/wp-content/uploads/2022/03/nadelen-voordelen-zonnepanelen.jpg"
 metaTitle: "Voordelen En Nadelen Zonnepanelen | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

@@ -16,6 +16,7 @@ const { title, metaTitle, description = '', intro = '', compare = false, wide = 
 <BaseLayout title={metaTitle || title} description={description}>
   <section class="page-hero">
     <div class="wrap">
+      <p class="crumbs"><a href="/">Home</a><span>/</span><span style="opacity:1">{title}</span></p>
       <h1>{title}</h1>
       {(intro || description) && <p>{intro || description}</p>}
     </div>
@@ -41,7 +42,7 @@ const { title, metaTitle, description = '', intro = '', compare = false, wide = 
       </article>
       {!wide && (
         <aside class="aside">
-          <div class="box">
+          <div class="box accent">
             <h3>Direct vergelijken</h3>
             <p>Bekijk in één overzicht welke energieleverancier op dit moment het voordeligst is.</p>
             <a class="btn" href="/#vergelijker">Start vergelijking</a>

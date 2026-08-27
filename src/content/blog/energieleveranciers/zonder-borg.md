@@ -5,6 +5,7 @@ pubDate: 2021-01-01
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Energieleveranciers"]
+image: "/wp-content/uploads/2022/03/energieleverancier-zonder-borg.jpg"
 metaTitle: "Energieleveranciers Zonder Borg | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

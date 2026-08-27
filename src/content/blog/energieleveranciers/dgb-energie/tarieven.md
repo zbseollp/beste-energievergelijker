@@ -5,6 +5,7 @@ pubDate: 2021-10-04
 updatedDate: 2022-05-28
 author: "Roy van Wensen"
 categories: ["Energieleveranciers"]
+image: "/wp-content/uploads/2022/03/dgb-energie-tarieven.png"
 ---
 
 <figure><img width="316" height="121" src="/wp-content/uploads/2022/03/dgb-energie-tarieven.png" alt="tarieven dgb energie" loading="lazy"></figure>

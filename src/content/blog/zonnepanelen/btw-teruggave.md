@@ -5,6 +5,7 @@ pubDate: 2021-04-16
 updatedDate: 2022-05-28
 author: "Roy van Wensen"
 categories: ["Zonnepanelen"]
+image: "/wp-content/uploads/2022/03/btw-teruggave-zonnepanelen.jpg"
 metaTitle: "BTW Teruggave Zonnepanelen | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

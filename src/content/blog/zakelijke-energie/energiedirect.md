@@ -5,6 +5,7 @@ pubDate: 2020-02-24
 updatedDate: 2022-05-28
 author: "Roy van Wensen"
 categories: ["Zakelijke energie"]
+image: "/wp-content/uploads/2022/03/zakelijke-energie-energiedirect.png"
 metaTitle: "Energiedirect Zakelijk Energie | Vergelijk & Bespaar Direct"
 ---
 

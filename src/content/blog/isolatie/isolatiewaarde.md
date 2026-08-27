@@ -5,6 +5,7 @@ pubDate: 2022-05-16
 updatedDate: 2022-05-26
 author: "Roy van Wensen"
 categories: ["Isolatie"]
+image: "/wp-content/uploads/2022/03/isolatiewaarde.jpg"
 metaTitle: "Isolatiewaarde | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 

@@ -5,6 +5,7 @@ pubDate: 2020-03-14
 updatedDate: 2022-05-27
 author: "Roy van Wensen"
 categories: ["Zakelijke energie"]
+image: "/wp-content/uploads/2022/03/zakelijke-energie-nle.png"
 metaTitle: "NLE Zakelijk Energie | Bekijk & Vergelijk Aanbod | Beste-Energievergelijker.com"
 ---
 

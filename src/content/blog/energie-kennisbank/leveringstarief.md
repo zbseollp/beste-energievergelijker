@@ -5,6 +5,7 @@ pubDate: 2021-02-13
 updatedDate: 2022-05-16
 author: "Roy van Wensen"
 categories: ["Kennisbank"]
+image: "/wp-content/uploads/2022/03/leveringstarief.jpg"
 metaTitle: "Leveringstarief | Informatiegids (2022) | Beste-Energievergelijker.com"
 ---
 
