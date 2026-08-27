@@ -41,3 +41,9 @@
 /energie-aanbieders/page/2/                  /energie-aanbieders/                                    301
 /kennisbank/page/2/                          /kennisbank/                                            301
 /kennisbank/page/22/                         /kennisbank/                                            301
+
+# Oude Yoast-sitemappaden naar de nieuwe Astro-sitemap
+/sitemap_index.xml   /sitemap-index.xml  301
+/post-sitemap.xml              /sitemap-index.xml  301
+/page-sitemap.xml              /sitemap-index.xml  301
+/category-sitemap.xml          /sitemap-index.xml  301
