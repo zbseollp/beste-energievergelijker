@@ -39,8 +39,6 @@
 /energieleveranciers/delta/tarieven/         /energieleveranciers/delta-energie/tarieven/            301
 /energieleveranciers/delta/aanbiedingen/     /energieleveranciers/delta-energie/aanbiedingen/        301
 /energie-aanbieders/page/2/                  /energie-aanbieders/                                    301
-/kennisbank/page/2/                          /kennisbank/                                            301
-/kennisbank/page/22/                         /kennisbank/                                            301
 
 # Oude Yoast-sitemappaden naar de nieuwe Astro-sitemap
 /sitemap_index.xml   /sitemap-index.xml  301

@@ -1,0 +1,84 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostGrid from '../../components/PostGrid.astro';
+import Pagination from '../../components/Pagination.astro';
+
+// De oude WordPress-kennisbank toonde 15 artikelen per pagina.
+const PER_PAGE = 15;
+
+// Onderwerphubs die al een eigen overzichtspagina hebben.
+const ONDERWERPEN = [
+  { naam: 'Energie vergelijken', href: '/energie-vergelijken/' },
+  { naam: 'Energie besparen', href: '/energie-besparen/' },
+  { naam: 'Energieleveranciers', href: '/energie-aanbieders/' },
+  { naam: 'Overstappen', href: '/overstappen-energie/' },
+  { naam: 'Zonnepanelen', href: '/zonnepanelen/' },
+  { naam: 'Isolatie', href: '/isolatie/' },
+  { naam: 'Duurzame energie', href: '/duurzame-energie/' },
+  { naam: 'Zakelijke energie', href: '/zakelijke-energie/' },
+];
+
+export async function getStaticPaths() {
+  const posts = (await getCollection('blog')).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  );
+  const perPage = 15;
+  const last = Math.max(1, Math.ceil(posts.length / perPage));
+
+  return Array.from({ length: last }, (_, i) => {
+    const n = i + 1;
+    return {
+      // pagina 1 -> /kennisbank/, pagina n -> /kennisbank/page/n/ (net als de bron)
+      params: { page: n === 1 ? undefined : `page/${n}` },
+      props: {
+        posts: posts.slice(i * perPage, (i + 1) * perPage),
+        current: n,
+        last,
+        total: posts.length,
+      },
+    };
+  });
+}
+
+const { posts, current, last, total } = Astro.props;
+
+const site = 'https://beste-energievergelijker.com';
+const url = (n: number) => (n === 1 ? '/kennisbank/' : `/kennisbank/page/${n}/`);
+const title =
+  current === 1
+    ? 'Kennisbank | Beste-energievergelijker.com'
+    : `Kennisbank - pagina ${current} van ${last} | Beste-energievergelijker.com`;
+---
+<BaseLayout
+  title={title}
+  description="Meer weten over energie en het vergelijken van energie? Bekijk dan nu onze kennisbank met vele informatiegidsen!"
+>
+  <Fragment slot="head">
+    {current > 1 && <link rel="prev" href={new URL(url(current - 1), site).href} />}
+    {current < last && <link rel="next" href={new URL(url(current + 1), site).href} />}
+  </Fragment>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <p class="crumbs"><a href="/">Home</a><span>/</span><span>Kennisbank</span></p>
+      <h1>Kennisbank</h1>
+      <p>
+        {total} informatiegidsen over energie vergelijken, besparen en overstappen.
+        {last > 1 && <> Pagina {current} van {last}.</>}
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      {current === 1 && (
+        <nav class="kb-topics" aria-label="Onderwerpen">
+          {ONDERWERPEN.map((o) => <a href={o.href}>{o.naam}</a>)}
+        </nav>
+      )}
+      <PostGrid posts={posts} />
+      <Pagination current={current} last={last} base="/kennisbank/" />
+    </div>
+  </section>
+</BaseLayout>
